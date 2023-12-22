@@ -3,7 +3,7 @@
 function App() {
   return (
     <div className="App">
-     <h1> new brand app.</h1>
+     <h1> New brand app.</h1>
     </div>
   );
 }
