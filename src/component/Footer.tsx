@@ -20,7 +20,7 @@ const Column = styled.div`
   flex-direction: column;
 `;
 
-const ColumnTitle = styled.h4`
+const ColumnTitle = styled.p`
   margin-bottom: 10px;
 `;
 
@@ -39,16 +39,10 @@ const CompanyLink = styled(Link)`
   color: #fff;
   text-decoration: none;
   margin-bottom: 5px;
+
 `;
 
-const HelpTag = styled.span`
-  display: inline-block;
-  background-color: #333;
-  color: #fff;
-  padding: 5px 10px;
-  
-  margin-bottom: 5px;
-`;
+
 
 const ResourceLink = styled(Link)`
   color: #fff;

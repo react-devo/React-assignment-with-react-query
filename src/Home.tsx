@@ -1,5 +1,6 @@
 
 import React from 'react'
+import styled from 'styled-components';
 import CompanyLogoGrid from "./component/containtView/CompanyLogo.tsx";
 import AdvertisementPage, { LearnMoreButton } from "./component/containtView/AdvertisementPage.tsx";
 import digitalIcon from './assets/image/digitalIcon.png'
@@ -10,6 +11,9 @@ import userImage from './assets/image/UserImage.png'
 import ServiceCard, { MainContainer, ServiceContainer } from "./component/serviceComponents/ServiceCard.tsx";
 import QuoteComponent from "./component/containtView/UserMessage.tsx";
 import ProductsListingList from "./component/product/ProductsListing.tsx";
+
+const Heading = styled.h1``
+const Paragraph = styled.p``
 
 const serviceData = [
     {
@@ -42,8 +46,8 @@ function Home() {
             <AdvertisementPage />
             <CompanyLogoGrid paragraph={'Powering next-gen companies'} />
             <MainContainer>
-                <h1>Explore Our Services</h1>
-                <p>We are self-service data analytics software that lets you create visually.</p>
+                <Heading>Explore Our Services</Heading>
+                <Paragraph>We are self-service data analytics software that lets you create visually.</Paragraph>
                 <ServiceContainer>
                     {serviceData.map((service, index) => {
                         return (
